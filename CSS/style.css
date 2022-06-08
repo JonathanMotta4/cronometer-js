@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+    background-color: dodgerblue;
+    color: dodgerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    width: 50vw;
+    text-align: center;
+    background-color: lightgrey;
+    margin:30px auto;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.301);
+}
+#clock{
+    font-size: 1.4em;
+}
+input:hover{
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.301);
+}
+input{
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 15px;
+    margin: 1vw;
+}
+h3{
+    margin-top: 8vh;
+}
+a{
+    color: black;
+    
+}
+a:hover{
+    padding: 10px;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.301);
+}
